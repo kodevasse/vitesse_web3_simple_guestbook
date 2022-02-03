@@ -6,6 +6,7 @@ useHead({
   title: 'PDPkrypto\'s Guest Book',
   meta: [
     { name: 'Guest Book @ Polygon Mumbai', content: 'PDPkrypto crypto project' },
+    { property: 'og:image', content: 'https://lh3.googleusercontent.com/T__nKUzSj5swjXGiuh1Mx2UtaojaKouwLRzZ24auTBns0VWwWJfLzWnW6f1KEMC0RLQbcsmy_nQbnrteXtQ1MpD8PZ2Epuw-ML8Q=s0' },
   ],
 })
 </script>
