@@ -43,6 +43,10 @@ const { account, guestPosts, guestPostsCount } = storeToRefs(cryptoStore)
     </div>
 
     <div v-if="account" class="border shadow  sm:w-4/12  p-4 mt-10">
+      <h3 class="text-white">
+        Your address: <span class="text-teal-200">{{ account }}
+        </span>
+      </h3>
       <h3 class="text-2xl">
         Number Of Entries: {{ guestPostsCount }}
       </h3>

@@ -25,7 +25,7 @@ const toggleLocales = () => {
       <carbon-language />
     </a>
 
-    <router-link class=" icon-btn mx-2" to="/nft" :title="t('button.nft')">
+    <router-link class=" icon-btn mx-2" to="/nftgallery" :title="t('button.nft')">
       <carbon-image />
     </router-link>
     <router-link class=" hidden icon-btn mx-2" to="/about" :title="t('button.about')">
