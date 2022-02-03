@@ -3,9 +3,9 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Vitesse',
+  title: 'PDPkrypto\'s Guest Book',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'Guest Book @ Polygon Mumbai', content: 'PDPkrypto crypto project' },
   ],
 })
 </script>
