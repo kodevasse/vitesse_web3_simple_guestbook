@@ -21,16 +21,25 @@ const toggleLocales = () => {
       <carbon-sun v-else />
     </button>
 
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
+    <a class="hidden icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
       <carbon-language />
     </a>
 
-    <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
+    <router-link class=" icon-btn mx-2" to="/nft" :title="t('button.nft')">
+      <carbon-image />
+    </router-link>
+    <router-link class=" hidden icon-btn mx-2" to="/about" :title="t('button.about')">
       <carbon-dicom-overlay />
     </router-link>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/kodevasse" target="_blank" title="GitHub">
       <carbon-logo-github />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://twitter.com/PDPkrypto" target="_blank" title="GitHub">
+      <carbon-logo-twitter />
+    </a>
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://instagram.com/PDPkrypto" target="_blank" title="GitHub">
+      <carbon-logo-instagram />
     </a>
   </nav>
 </template>
